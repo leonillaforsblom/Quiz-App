@@ -33,7 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 padding: 20px;
 font-size: 30px;
-height: 50px;
+min-height: 50px;
 margin: 20px;
 }
 
@@ -81,4 +81,16 @@ margin: 20px;
   border-radius: 4px;
   background-color: rgb(55, 43, 226);
   color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .questiondiv {
+    min-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  .questiondiv {
+    min-height: 150px;
+    }
 }
